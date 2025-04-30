@@ -1,0 +1,61 @@
+/* src/pages/Home.css */
+
+.home-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  .home-page h2 {
+    font-size: 2rem;
+    color: #212529;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .progress p {
+    font-size: 1rem;
+    color: #495057;
+    margin: 5px 0;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .home-buttons a {
+    text-decoration: none;
+  }
+  
+  .home-buttons button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .home-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  .home-buttons button:active {
+    background-color: #004085;
+  }
+  

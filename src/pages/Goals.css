@@ -1,0 +1,38 @@
+/* src/pages/Goals.css */
+
+.goals-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .goals-page h2 {
+    font-size: 2rem;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .goal-stats {
+    text-align: center;
+  }
+  
+  .goal-stats p {
+    font-size: 1.2rem;
+    color: #495057;
+    margin-bottom: 10px;
+  }
+  
+  .goal-stats p strong {
+    font-weight: bold;
+  }
+  
+  .goals-page p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  

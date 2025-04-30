@@ -1,0 +1,98 @@
+.workout-list {
+    padding: 20px;
+  }
+  
+  h2 {
+  text-align:center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #1D1F2F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8ff; /* Add a soft background color */
+    padding: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+  }
+  
+  li:nth-child(even) {
+    background-color: #ffe4e1; /* Color change for alternating items */
+  }
+  
+  li button {
+    margin-left: 10px;
+  }
+  
+  li button:hover {
+    background-color: #333;
+  }
+  
+  /* Add more specific button styles */
+  button.edit-button {
+    background-color: #ffc107;
+  }
+  
+  button.edit-button:hover {
+    background-color: #e0a800;
+  }
+  
+  button.delete-button {
+    background-color: #dc3545;
+  }
+  
+  button.delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  button.completed-button {
+    background-color: #28a745;
+  }
+  
+  button.completed-button:hover {
+    background-color: #218838;
+  }
+  
