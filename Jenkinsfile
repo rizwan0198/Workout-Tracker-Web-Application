@@ -10,7 +10,9 @@ pipeline {
 
         stage('Build with Docker Compose') {
             steps {
-                sh 'cd $WORKSPACE && docker-compose -p jenkins-workout -f docker-compose.yml up --build -d'
+                sh 'cd $WORKSPACE && docker compose -p jenkins-workout -f docker-compose.yml up --build -d'
+
+                
             }
         }
     }
