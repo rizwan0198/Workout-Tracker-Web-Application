@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: workout-tracker
+    container_name: workout-frontend
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    # If you want to mount your local frontend code, you can add volumes here
+    # volumes:
+    #   - ./frontend:/usr/share/nginx/html
+
+  mongo:
+    image: mongo:latest
+    container_name: workout-mongo
+    ports:
+      - "27017:27017"
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
