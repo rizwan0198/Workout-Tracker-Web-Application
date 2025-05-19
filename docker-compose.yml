@@ -2,12 +2,12 @@ version: '3.8'
 
 services:
   frontend:
-    build: workout-tracker
+    build:
+      context: .
     container_name: workout-frontend
     ports:
       - "80:80"
     restart: unless-stopped
-    # If you want to mount your local frontend code, you can add volumes here
     # volumes:
     #   - ./frontend:/usr/share/nginx/html
 
